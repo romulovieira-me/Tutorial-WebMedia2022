@@ -1,0 +1,17 @@
+#N canvas 1228 345 450 362 12;
+#X declare -lib Gem;
+#X msg 34 45 create \, 1;
+#X msg 55 74 destroy;
+#X obj 111 9 declare -lib Gem;
+#X obj 34 135 gemwin;
+#X obj 104 192 gemhead;
+#X obj 104 232 pix_video;
+#X msg 28 209 dialog;
+#X obj 104 260 pix_texture;
+#X obj 104 295 rectangle 4 3;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 6 0 5 0;
+#X connect 7 0 8 0;

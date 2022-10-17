@@ -1,0 +1,5 @@
+#N canvas 1028 336 450 300 12;
+#X obj 29 77 dac~;
+#X obj 28 26 mrpeach/net/udpreceive~ 3001 2;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
